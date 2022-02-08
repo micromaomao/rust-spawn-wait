@@ -1,3 +1,5 @@
+[![Crates.io](https://img.shields.io/crates/v/spawn-wait)](https://crates.io/crates/spawn-wait)
+
 Easily spawn and manage a set of processes.
 
 ```rust
