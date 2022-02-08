@@ -1,6 +1,6 @@
 [package]
 name = "spawn-wait"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 license = "MIT"
 description = "Spawn and manage a set of processes each associated with a key, and wait on all or part of them simultaneously."

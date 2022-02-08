@@ -32,9 +32,10 @@ impl<K> ProcessSet<K> {
     }
   }
 
-  pub fn with_concurrency_limit(mut self, limit: usize) -> Self {
-    self.concurrency_limit = Some(limit);
-    self
+  pub fn with_concurrency_limit(limit: usize) -> Self {
+    let mut n = Self::default();
+    n.concurrency_limit = Some(limit);
+    n
   }
 }
 

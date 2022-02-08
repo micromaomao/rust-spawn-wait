@@ -13,7 +13,7 @@ fn make_cmd(secs: i32) -> Command {
 }
 
 fn main() {
-  let mut procs = ProcessSet::new().with_concurrency_limit(3);
+  let mut procs = ProcessSet::with_concurrency_limit(3);
   for i in 0..5 {
     procs.add_command((1, i), make_cmd(1));
   }
