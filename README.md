@@ -1,4 +1,5 @@
 [![Crates.io](https://img.shields.io/crates/v/spawn-wait)](https://crates.io/crates/spawn-wait)
+[![docs.rs](https://img.shields.io/docsrs/spawn-wait)](https://docs.rs/spawn-wait)
 
 Easily spawn and manage a set of processes.
 

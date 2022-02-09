@@ -1,10 +1,11 @@
 [package]
 name = "spawn-wait"
-version = "0.2.1"
+version = "0.2.2"
 edition = "2021"
 license = "MIT"
 description = "Spawn and manage a set of processes each associated with a key, and wait on all or part of them simultaneously."
 repository = "https://github.com/micromaomao/rust-spawn-wait"
+documentation = "https://docs.rs/spawn-wait"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
